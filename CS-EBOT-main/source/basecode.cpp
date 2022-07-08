@@ -29,7 +29,7 @@ ConVar ebot_debug("ebot_debug", "0");
 ConVar ebot_debuggoal("ebot_debuggoal", "-1");
 ConVar ebot_gamemod("ebot_gamemode", "0");
 
-ConVar ebot_followuser("ebot_followuser_max", "1");
+ConVar ebot_followuser("ebot_followuser_max", "32");
 ConVar ebot_knifemode("ebot_knifemode", "0");
 ConVar ebot_walkallow("ebot_walkallow", "1");
 ConVar ebot_stopbots("ebot_stopbots", "0");
@@ -39,12 +39,12 @@ ConVar ebot_camp_min("ebot_camp_time_min", "16");
 ConVar ebot_camp_max("ebot_camp_time_max", "48");
 ConVar ebot_use_radio("ebot_use_radio", "1");
 ConVar ebot_anti_block("ebot_anti_block", "0");
-ConVar ebot_zm_dark_mode("ebot_zm_dark_mode", "0");
+ConVar ebot_zm_dark_mode("ebot_zm_dark_mode", "1");
 ConVar ebot_zm_fov("ebot_zm_fov", "90");
 ConVar ebot_force_flashlight("ebot_force_flashlight", "0");
 ConVar ebot_use_flare("ebot_zombie_mode_use_flares", "1");
-ConVar ebot_chat_percent("ebot_chat_percent", "20");
-ConVar ebot_eco_rounds("ebot_eco_rounds", "1");
+ConVar ebot_chat_percent("ebot_chat_percent", "100");
+ConVar ebot_eco_rounds("ebot_eco_rounds", "0");
 ConVar ebot_human_side_movement("ebot_human_side_movement_while_camping", "1");
 
 // this function get the current message from the bots message queue
